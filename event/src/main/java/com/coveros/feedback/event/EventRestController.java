@@ -1,4 +1,4 @@
-package com.coveros.feedback.collector;
+package com.coveros.feedback.event;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

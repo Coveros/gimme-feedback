@@ -1,4 +1,4 @@
-package com.coveros.feedback.collector;
+package com.coveros.feedback.event;
 
 import java.util.Date;
 import java.util.List;

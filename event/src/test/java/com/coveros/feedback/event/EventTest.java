@@ -1,4 +1,4 @@
-package com.coveros.feedback.collector;
+package com.coveros.feedback.event;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -217,7 +217,7 @@
   </dependencyManagement>
 
   <modules>
-    <module>collector</module>
+    <module>event</module>
   </modules>
 
   <licenses>
