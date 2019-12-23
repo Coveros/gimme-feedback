@@ -18,7 +18,7 @@ public final class Event {
   /** Description of the event */
   private final String description;
 
-  public Event(final long id, final Date date, final String name, final String description) {
+  public Event(final long id, final String name, final Date date, final String description) {
     this.id = id;
     this.name = name;
     this.date = date;
