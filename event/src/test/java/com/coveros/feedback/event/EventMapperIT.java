@@ -14,7 +14,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.transaction.annotation.Transactional;
 
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = EventPersistenceConfig.class)
+@ContextConfiguration(classes = {EventPersistenceTestConfig.class})
 @Transactional
 class EventMapperIT {
 

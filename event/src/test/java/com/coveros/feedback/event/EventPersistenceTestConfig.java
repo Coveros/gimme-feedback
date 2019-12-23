@@ -9,14 +9,14 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
 @Configuration
 @MapperScan("com.coveros.feedback.event")
-public class EventPersistenceConfig extends PersistenceConfig {
+public class EventPersistenceTestConfig extends PersistenceConfig {
 
   @Bean
   public DataSource dataSource() {
     return new EmbeddedDatabaseBuilder()
         .setType(EmbeddedDatabaseType.H2)
         .addScript("event-schema.sql")
-        .addScript("event-data.sql")
+        .addScript("event-test-data.sql")
         .build();
   }
 }
