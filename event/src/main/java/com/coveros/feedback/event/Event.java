@@ -21,7 +21,7 @@ public final class Event {
   public Event(final long id, final String name, final Date date, final String description) {
     this.id = id;
     this.name = name;
-    this.date = date;
+    this.date = new Date(date.getTime());
     this.description = description;
   }
 
