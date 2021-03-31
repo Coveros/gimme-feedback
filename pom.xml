@@ -35,7 +35,7 @@
     <junit.jupiter.version>5.5.2</junit.jupiter.version>
     <commons.lang3.version>3.9</commons.lang3.version>
     <equalsverifier.version>3.1.10</equalsverifier.version>
-    <guava.version>28.1-jre</guava.version>
+    <guava.version>29.0-jre</guava.version>
     <com.google.errorprone.version>2.3.4</com.google.errorprone.version>
     <mybatis.version>3.5.3</mybatis.version>
     <mybatis.spring.version>2.0.3</mybatis.spring.version>
